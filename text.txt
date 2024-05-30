@@ -1,0 +1,15 @@
+1. SELECT * FROM `students` WHERE `students`.`date_of_birth` > "1990-1-1" AND `students`.`date_of_birth` < "1991-1-1";
+
+2. SELECT * FROM `courses` WHERE `courses`.`cfu` >= "10";
+
+3.
+
+4. SELECT * FROM `courses` WHERE `courses`.`period` = "I semestre" AND `courses`.`year` = "1";
+
+5. SELECT * FROM `exams` WHERE `exams`.`hour` > "16:00:00" AND `exams`.`date` = "2020-06-20";
+
+6. SELECT * FROM `degrees` WHERE `degrees`.`level` = "magistrale";
+
+7. SELECT COUNT(`id`) FROM `departments`;
+
+8. SELECT COUNT(`id`) FROM `teachers` WHERE `teachers`.`phone` IS NULL;
